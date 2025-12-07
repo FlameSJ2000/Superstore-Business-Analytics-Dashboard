@@ -1,0 +1,20 @@
+CREATE TABLE stg_superstore (
+    "Row ID"        INT,
+    "Order ID"      VARCHAR,
+    "Order Date"    VARCHAR,
+    "Ship Date"     VARCHAR,
+    "Ship Mode"     VARCHAR,
+    "Customer ID"   VARCHAR,
+    "Customer Name" VARCHAR,
+    "Segment"       VARCHAR,
+    "Country"       VARCHAR,
+    "City"          VARCHAR,
+    "State"         VARCHAR,
+    "Postal Code"   VARCHAR,
+    "Region"        VARCHAR,
+    "Product ID"    VARCHAR,
+    "Category"      VARCHAR,
+    "Sub-Category"  VARCHAR,
+    "Product Name"  VARCHAR,
+    "Sales"         NUMERIC
+);
