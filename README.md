@@ -69,6 +69,30 @@ Folder: `/PowerBI`
 
 ---
 
+## 📥 Download Power BI File
+
+👉 **[Download Superstore Dashboard (.pbix)](PowerBI/superstore_dashboard.pbix)**  
+
+Use this file to explore all interactive visuals and KPIs.
+
+---
+
+## 🖼️ Dashboard Preview
+
+> *(Add images here after uploading them into `/images` folder)*  
+Example:
+
+```md
+### Executive Overview
+![Executive Dashboard](images/dashboard_overview.png)
+
+### Product Performance
+![Product Performance](images/product_performance.png)
+
+### Segment Analysis
+![Segment Analysis](images/segment_analysis.png)
+
+
 ## 🔍 Key Insights
 
 ### **Overall Performance**
