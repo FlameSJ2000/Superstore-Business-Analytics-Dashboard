@@ -1,4 +1,10 @@
-# 📊 Superstore Business Analytics Dashboard  
+# 📊 Superstore Business Analytics Dashboard
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-025E8C?logo=sqlite&logoColor=white)
+![Analytics](https://img.shields.io/badge/Analytics-8E24AA)
+
 End-to-end Business Analytics project using SQL + Power BI to analyze Superstore sales, customer segments, and product performance (2015–2018). Includes KPIs, insights, and recommended actions.
 
 ---
