@@ -69,9 +69,10 @@ Folder: `/PowerBI`
 
 ---
 
-## 📥 Download Power BI File
+### 📊 Power BI Dashboard  
+Download the interactive dashboard here:
 
-👉 **[Download Superstore Dashboard (.pbix)](PowerBI/superstore_dashboard.pbix)**  
+👉 [superstore_analytics_dashboard.pbix](PowerBI/superstore_analytics_dashboard.pbix) 
 
 Use this file to explore all interactive visuals and KPIs.
 
@@ -92,6 +93,7 @@ Example:
 ### Segment Analysis
 ![Segment Analysis](images/segment_analysis.png)
 
+---
 
 ## 🔍 Key Insights
 
