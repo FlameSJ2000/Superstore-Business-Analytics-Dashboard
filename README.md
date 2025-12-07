@@ -70,16 +70,8 @@ Folder: `/SQL`
 ---
 
 ## 🖼️ Dashboard Preview  
-(หลังจากอัปโหลดภาพเข้าโฟลเดอร์ `/images`)
 
-### **Executive Overview**
-![Executive](images/dashboard_overview.png)
-
-### **Product Performance**
-![Product](images/product_performance.png)
-
-### **Segment Analysis**
-![Segment](images/segment_analysis.png)
+![Dashboard Overview](assets/dashboard.png)
 
 ---
 
