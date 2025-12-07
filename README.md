@@ -53,116 +53,88 @@ Folder: `/SQL`
 | 11_load_fact_sales.sql | Populate fact_sales |
 | 12_analysis_queries.sql | KPI & analysis SQL |
 
----
-
-## 📈 Power BI Dashboard  
-Folder: `/PowerBI`
-
-### Dashboard Includes:
-- KPIs (Total Sales, Orders, Customers, AOV)
-- Monthly Sales Trend
-- Sales by Category
-- Sales by Sub-Category
-- Sales by Segment
-- Slicers (Year, Category, Segment)
-- Executive Insights Box
 
 ---
 
-### 📊 Power BI Dashboard  
-Download the interactive dashboard here:
+## 📊 Power BI Dashboard
 
-👉 [superstore_analytics_dashboard.pbix](PowerBI/superstore_analytics_dashboard.pbix) 
-
-Use this file to explore all interactive visuals and KPIs.
+### 👉 Download dashboard file (PBIX)
+[Click to download Power BI Dashboard](PowerBI/superstore_analytics_dashboard.pbix)
 
 ---
 
-## 🖼️ Dashboard Preview
+## 🖼️ Dashboard Preview  
+(หลังจากอัปโหลดภาพเข้าโฟลเดอร์ `/images`)
 
-> *(Add images here after uploading them into `/images` folder)*  
-Example:
+### **Executive Overview**
+![Executive](images/dashboard_overview.png)
 
-```md
-### Executive Overview
-![Executive Dashboard](images/dashboard_overview.png)
+### **Product Performance**
+![Product](images/product_performance.png)
 
-### Product Performance
-![Product Performance](images/product_performance.png)
-
-### Segment Analysis
-![Segment Analysis](images/segment_analysis.png)
+### **Segment Analysis**
+![Segment](images/segment_analysis.png)
 
 ---
 
 ## 🔍 Key Insights
 
-### **Overall Performance**
+### ⭐ **Overall Performance**
 - **Total Sales:** $2.26M  
-- **Total Orders:** 5K+  
+- **Total Orders:** 5k+  
 - **Total Customers:** 793  
-- **AOV:** $459  
+- **Avg Order Value:** $459  
 
-### **Business Insights**
-- Technology & Phones drive the highest revenue → expand promotions  
-- Underperforming Sub-Categories (Fasteners/Labels) → consider repositioning or reducing inventory  
-- Q3–Q4 consistently show peak sales → ideal timing for campaigns & bundled offers  
+### 💼 **Business Insights**
+- Technology & Phones generate the highest revenue → expand inventory  
+- Underperforming sub-categories → consider repositioning or promotions  
+- Q3–Q4 seasonal peaks → ideal period for marketing campaigns  
 
 ---
 
-## 🧠 Skills Demonstrated
+## 🎓 Skills Demonstrated
 
-### **SQL (PostgreSQL)**
+### 🛢️ **SQL (PostgreSQL)**
 - ETL pipeline development  
 - Star schema modeling  
 - Window functions (LAG, ROW_NUMBER)  
-- Aggregation & analytical queries  
-- Joins & CTEs  
+- Advanced joins & aggregations  
+- CTE-based analytical queries  
 
-### **Power BI**
+### 📊 **Power BI**
 - Data modeling  
-- KPI visuals  
-- Interactive slicers  
-- Trend & segmentation analysis  
-
-### **Business Analytics**
-- Retail performance analysis  
-- KPI storytelling  
-- Executive insights & recommendations  
+- DAX measures  
+- Interactive visuals  
+- Segmentation & trend dashboards  
 
 ---
 
-## 📂 Dataset
-`train.csv` (retail order dataset)  
-Includes: Orders, customers, products, sales, ship details, and geolocation data.
-
----
-
-## 🚀 How to Run
+## ▶️ How to Run
 
 ### **1. Load SQL Pipeline**
-Run files in this order:
-00 → 01 → 02 → ... → 12
-
+Execute SQL files in order (00 → 11).  
+This will build your warehouse and populate all dimensions & fact tables.
 
 ### **2. Load Dashboard**
+- Open `.pbix` file  
 - Connect Power BI to PostgreSQL  
-- Import calculated SQL queries  
-- Use provided visuals to recreate dashboard  
+- Refresh data  
+- Explore KPIs & insights  
 
 ---
 
 ## 👤 Author
+
 **Siripaiboon “Flame” Janpetch**  
-M.S. Data Analytics @ UTSA  
+M.S. Data Analytics – UTSA  
 Business Analyst / Data Analyst (SQL, Python, Power BI)
 
 GitHub: https://github.com/FlameSJ2000  
-LinkedIn: www.linkedin.com/in/siripaiboon-janpetch
+LinkedIn: https://www.linkedin.com/in/siripaiboon-janpetch  
 
 ---
 
 ## ⭐ Support
-If you find this project useful, please ⭐ star the repository!  
-It helps support my portfolio while applying for BA/DA internships.
+If you find this project helpful, please **star ⭐ the repository**.  
+Your support helps strengthen my analytics portfolio while applying for internships.
 
